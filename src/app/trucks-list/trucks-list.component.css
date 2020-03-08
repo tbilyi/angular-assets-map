@@ -1,0 +1,50 @@
+agm-map {
+  height: 300px;
+}
+.assets-list {
+  height: 440px;
+  overflow-y: scroll;
+  padding: 0;
+}
+.assets-list button {
+  border-bottom: 2px solid #eee;
+}
+.assets-list button:hover {
+  background-color: #e2e6ea;
+}
+.remove-asset {
+  color: #dc3585a8;
+}
+.assets-header .navbar-brand {
+  font-size: 30px;
+  line-height: 1;
+}
+.delete-asset-conf button {
+  padding: 1px 25px;
+  font-size: 20px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.conf-btn-group {
+  margin-top: 30px;
+}
+@media (min-width: 768px) {  
+  agm-map {
+    height: 400px;
+  }
+}
+
+@media (min-width: 992px) {
+  agm-map {
+    height: 500px;
+  }
+  .assets-list {
+    height: 540px;
+  }
+  .remove-asset{
+    font-size: 30px;
+  }
+  .asset-list-item {
+    font-size: 20px;
+  }
+}
